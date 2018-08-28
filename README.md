@@ -14,5 +14,4 @@ Output:(k2,v2) = (“the cat”, 1), (“cat in”,2),(‘in the’,2),(‘the h
 1. Place the WordCountV2.jar file in the hadoop container in Docker.
 2. Place the adventures.txt file in the HDFS. I had placed it in user/cloudera/adventures.txt
 3. Then run the job by executing the command hadoop jar WordCountV2.jar /user/cloudera/adventures.txt /user/cloudera/output
-4. The output path argument should be a unique path, or it will throw an exception. I have mentioned /user/cloudera/output where I will   
-get the output file generated.
+4. The output path argument should be a unique path, or it will throw an exception. I have mentioned /user/cloudera/output             where I will get the output file generated.
